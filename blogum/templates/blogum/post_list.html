@@ -1,4 +1,8 @@
 <html>
 	<h1>Afterlife</h1>
 	<h2>Oh my god, what an awful word.</h2>
+
+	{% for post in Post %}
+		<h1>{{ post.title }}</h1>
+	{% endfor %}
 </html>
