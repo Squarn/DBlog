@@ -1,6 +1,6 @@
 *.pyc
 __pycache__
-benv
+myvenv
 db.sqlite3
 /static
-.DS_store
+.DS_Store
