@@ -4,11 +4,11 @@
 	<div class="post">
 		{% if post.published_date %}
 			<div class="date">
-				{{ post.published_date }}
+				{{ post.published_date }} {{ post.category }}
 			</div>
 		{% endif %}
 		{% if user.is_authenticated %}
-		<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
+			<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
 		{% endif %}
 	</div>
 {% endblock %}

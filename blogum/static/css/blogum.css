@@ -1,3 +1,87 @@
-h1 a {
-	color: #c1c1c1;
+body {
+	color: #3d3d3d;
+	background-color: #f3f3f3;
+	font-size: 16px;
+	font-family: 'IM Fell DW Pica';
+}
+
+a {
+	text-decoration: none;
+	color: #3d3d3d;
+}
+
+p {
+	line-height: 170%;
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60%;
+	margin: auto;
+}
+
+.high-header {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.high-header .not {
+	/*font-family: 'IM Fell DW Pica', serif;*/
+	font-family: 'IM Fell English SC', serif;
+	font-size: 2em;
+	letter-spacing: 6px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.not {
+	margin-top: 200px;
+}
+
+.not, .and {
+	display: inline;
+}
+
+.and {
+	font-size: 80px;
+	vertical-align: middle;
+}
+
+.post h1 {
+	font-family: 'IM Fell English', serif;
+	font-weight: normal;
+	font-size: 1.7em;
+}
+
+.category {
+	font-size: 1.2em;
+	display: inline;
+}
+
+.nav-ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.nav-ul li {
+	display: inline;
+	list-style-type: none;
+	font-size: 11px;
+	margin-left: 10px;
+}
+
+.nav-ul li a {
+	color:#dedede;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	-ms-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
+}
+
+.nav-ul:hover a {
+	color: #3d3d3d;
 }
