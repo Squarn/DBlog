@@ -18,7 +18,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 60%;
+	width: 40%;
 	margin: auto;
 }
 
@@ -50,14 +50,21 @@ p {
 	vertical-align: middle;
 }
 
+.post {
+    margin-bottom: 100px;
+}
+
 .post h1 {
-	font-family: 'IM Fell English', serif;
 	font-weight: normal;
 	font-size: 1.7em;
+	display: inline;
+	margin-right: 20px;
 }
 
 .category {
-	font-size: 1.2em;
+	font-size: 1.1em;
+	display: inline;
+	font-style: italic;
 	display: inline;
 }
 
@@ -70,16 +77,17 @@ p {
 	display: inline;
 	list-style-type: none;
 	font-size: 11px;
-	margin-left: 10px;
+	margin-left: 15px;
 }
 
 .nav-ul li a {
 	color:#dedede;
-	-webkit-transition: all 1s linear;
-	-moz-transition: all 1s linear;
-	-ms-transition: all 1s linear;
-	-o-transition: all 1s linear;
-	transition: all 1s linear;
+	text-transform: uppercase;
+	-webkit-transition: all .5s linear;
+	-moz-transition: all .5s linear;
+	-ms-transition: all .5s linear;
+	-o-transition: all .5s linear;
+	transition: all .5s linear;
 }
 
 .nav-ul:hover a {
