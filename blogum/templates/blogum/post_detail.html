@@ -1,10 +1,15 @@
 {% extends 'blogum/base.html' %}
 
+{% with detail="psdetail" %}
 {% block content %}
-	<div class="post">
+	<div class="post postdetail">
 		{% if post.published_date %}
+			<div class="content">
+				{{ post.text|linebreaksbr }}
+			</div>
 			<div class="date">
-				{{ post.published_date }} {{ post.category }}
+				<p>{{ post.published_date }}</p> 
+				<p>{{ post.category }}</p>
 			</div>
 		{% endif %}
 		{% if user.is_authenticated %}
@@ -12,3 +17,4 @@
 		{% endif %}
 	</div>
 {% endblock %}
+{% endwith %}

@@ -1,26 +1,13 @@
 from django.shortcuts import render
 from django.utils import timezone
 from .forms import PostForm
-from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.shortcuts import redirect
 from django.shortcuts import render, get_object_or_404
 from .models import Post
 
 def post_list(request):
-    # posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    # return render(request, 'blogum/post_list.html', {'posts': posts})
-    posts = Post.objects.all().order_by('-created_date')
-    paginator = Paginator(posts,5)
-
-    page = request.GET.get('page')
-    try:
-        posters = paginator.page(page)
-    except PageNotAnInteger:
-        posters = paginator.page(1)
-    except EmptyPage:
-        posters = paginator.page(paginator.num_pages)
-
-    return render(request,'blogum/list.html', {'posters': posters})
+    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    return render(request, 'blogum/post_list.html', {'posts': posts})
 
 def post_detail(request,pk):
     post = get_object_or_404(Post,pk=pk)

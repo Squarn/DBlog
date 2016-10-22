@@ -1,0 +1,658 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"obje",
+				"get_object_or_404"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"cha",
+				"charset\tAttr"
+			],
+			[
+				"meta",
+				"meta\tmeta"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"top",
+				"top_header"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"t",
+				"textcolor"
+			],
+			[
+				"body",
+				"bodyfont"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 226.0,
+		"last_filter": "vem",
+		"selected_items":
+		[
+			[
+				"vem",
+				"View: Toggle Menu"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control settings",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"snipp",
+				"Snippet: tumblr-default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"meta",
+				"Snippet: meta"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"Tasks",
+				"Tasks: New"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdowned",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"Markdown Edi",
+				"Preferences: MarkdownEditing Settings – Default"
+			],
+			[
+				"snippet met",
+				"Snippet: meta"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"prefix",
+				"Autoprefix CSS"
+			],
+			[
+				"prefi",
+				"Autoprefix CSS"
+			],
+			[
+				"Snippet: ",
+				"Snippet: tumblr-default"
+			],
+			[
+				"tum",
+				"Snippet: tumblr-default"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"- ",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Brook/Dropbox/Squarn Inc Team Folder/index.html",
+		"/C/Users/Brook/Desktop/DBlog/blogum/templates/blogum/base.html",
+		"/C/Users/Brook/Desktop/DBlog/blogum/static/css/blogum.css",
+		"/C/Users/Brook/Desktop/DBlog/blogum/templates/blogum/post_list.html",
+		"/C/Users/Brook/Desktop/DBlog/blogum/templates/blogum/post_edit.html",
+		"/C/Users/Brook/Desktop/DBlog/blogum/templates/blogum/post_detail.html",
+		"/C/Users/Brook/Desktop/DBlog/blogum/forms.py",
+		"/C/Users/Brook/Desktop/DBlog/blogum/static/css/base.html",
+		"/C/Users/Brook/Desktop/DBlog/blogum/urls.py",
+		"/C/Users/Brook/Desktop/DBlog/blogum/views.py",
+		"/C/Users/Brook/Desktop/DBlog/.gitignore",
+		"/C/Users/Brook/Desktop/DBlog/blogum/models.py",
+		"/C/Users/Brook/Desktop/DBlog/blog/settings.py",
+		"/C/Users/Brook/Desktop/Django/Booster/polls/urls.py",
+		"/C/Users/Brook/Desktop/DBlog/blogum/admin.py",
+		"/C/WINDOWS/system32/drivers/etc/hosts",
+		"/C/Users/Brook/Desktop/Django/Booster/polls/views.py",
+		"/C/Users/Brook/Desktop/DBlog/blog/urls.py",
+		"/C/Users/Brook/Downloads/Naut-for-reddit-master/Naut-for-reddit-master/Naut 4 - Main CSS File.css",
+		"/C/Users/Brook/Dropbox/Squarn Inc Team Folder/css/component.css",
+		"/C/Users/Brook/Dropbox/Squarn Inc Team Folder/svg/chev-left.svg",
+		"/C/Users/Brook/Desktop/Pen Archiv/keyboard-left-arrow-button.svg",
+		"/C/Users/Brook/Desktop/The Pen Archive/css/style.css",
+		"/C/Users/Brook/Dropbox/Squarn Inc Team Folder/The Pen Archive/index.html",
+		"/C/Users/Brook/Desktop/The Pen Archive/css/component.css",
+		"/C/Users/Brook/Downloads/SidebarTransitions/SidebarTransitions/index.html",
+		"/C/Users/Brook/Downloads/SidebarTransitions/SidebarTransitions/css/component.css",
+		"/C/Users/Brook/Downloads/SidebarTransitions/SidebarTransitions/css/icons.css",
+		"/C/Users/Brook/Downloads/SidebarTransitions/SidebarTransitions/css/demo.css",
+		"/C/Users/Brook/Downloads/SidebarTransitions/SidebarTransitions/js/sidebarEffects.js",
+		"/C/Users/Brook/Downloads/SidebarTransitions/SidebarTransitions/js/classie.js",
+		"/C/Users/Brook/Pictures/eye for an eye.jpg",
+		"/C/Users/Brook/Desktop/The Pen Archive/index.html",
+		"/C/Users/Brook/Desktop/The Pen Archive/css/normalize.css",
+		"/F/Users/Brook/Application Data/StardewValley/Saves/Kyo_125846424/Kyo_125846424",
+		"/C/Users/Brook/Desktop/index.html",
+		"/C/Users/Brook/Desktop/html/grid-test/style.css",
+		"/C/Users/Brook/Desktop/html/grid-test/index.html",
+		"/C/Users/Brook/Desktop/html/calc.html",
+		"/C/Users/Brook/Desktop/html/index.html",
+		"/C/Users/Brook/Desktop/html/css/style.css",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Singles/wp-config.php",
+		"/C/Users/Brook/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/Users/Brook/Downloads/blogum/blogum/style.css",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Singles/olf_about",
+		"/C/Users/Brook/Dropbox/Tumblr Themes/Scrapbook 2014",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Singles/Markdown-test.html",
+		"/C/Users/Brook/AppData/Roaming/Sublime Text 3/Packages/User/tour.sublime-snippet",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Singles/new_about.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Singles/new_squarn.html",
+		"/C/Users/Brook/AppData/Local/Temp/fz3temp-1/options.php",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/cover.html",
+		"/H/$R0NF4RO.css",
+		"/C/Users/Brook/Desktop/flagrant.html",
+		"/C/Users/Brook/Desktop/deg.md",
+		"/C/Users/Brook/Dropbox/Squarn.Space/index.html",
+		"/C/Users/Brook/Downloads/Naut-for-reddit-master/Naut-for-reddit-master/NAUT 3 - Main CSS File.css",
+		"/C/Users/Brook/Dropbox/Squarn.Space/css/style.css",
+		"/C/Users/Brook/Desktop/Brooklen (@abhorson) • Instagram photos and videos.html",
+		"/C/Users/Brook/Dropbox/Squarn.Space/images/sqlogo.svg",
+		"/C/Users/Brook/Downloads/wordpress-4.3.1/wordpress/wp-config.php",
+		"/C/Users/Brook/Desktop/Portfolio/index.html",
+		"/C/Users/Brook/Dropbox/Squarn.Space/images/optimised.svg",
+		"/C/Users/Brook/Dropbox/Squarn.Space/images/squarnlogo.svg",
+		"/C/Users/Brook/Desktop/squarnlogo.svg",
+		"/C/Users/Brook/AppData/Local/Temp/fz3temp-1/wp-config-sample.php",
+		"/C/Users/Brook/AppData/Local/Temp/fz3temp-1/setup-config.php",
+		"/C/Users/Brook/Desktop/setup.php",
+		"/C/Users/Brook/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/squarn construction.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/philosophies.html",
+		"/C/Users/Brook/Desktop/Themes/sum.css",
+		"/C/Users/Brook/Desktop/Themes/new  2.html",
+		"/C/Users/Brook/Documents/GitHub/sb15.html",
+		"/C/Users/Brook/Documents/GitHub/Mattress.html",
+		"/C/Users/Brook/Desktop/q4.html",
+		"/C/Users/Brook/Desktop/style.css",
+		"/C/Users/Brook/Desktop/theme4rework.html",
+		"/C/Users/Brook/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Scrapbook26.html",
+		"/C/Users/Brook/Documents/GitHub/Rubynotes.rb",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 06/theme06tumclode.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/theme 05 tumblr clode ver 2.html",
+		"/C/Users/Brook/Desktop/pxu.js",
+		"/C/Users/Brook/Desktop/pxu.css",
+		"/C/Users/Brook/Desktop/Emulation/tumblr_nf5315BYHe1ts46sqo1_1280.jpg",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 06/style.css",
+		"/C/Users/Brook/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Brook/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Brook/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Brook/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/scrolly.js",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/Theme 05 WIP.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/theme 05 tumblr clode.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/style.css",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 01/Theme 01 (WIP).html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/script.js",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/reset.css",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/normalize.css",
+		"/C/Users/Brook/Desktop/arrow.svg",
+		"/C/Users/Brook/Documents/GitHub/Template.html",
+		"/C/Users/Brook/Documents/GitHub/Misc/Slide/slide.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 03/Theme03 (WIP).html",
+		"/C/Users/Brook/AppData/Roaming/Sublime Text 3/Packages/User/acolor.sublime-snippet",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 07/article.html",
+		"/C/Users/Brook/Desktop/1.todo",
+		"/C/Users/Brook/Desktop/hotkey.txt",
+		"/C/Users/Brook/Desktop/hotkey2.txt",
+		"/C/Program Files (x86)/World of Warcraft/WTF/Config.wtf",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Resources/Header.txt",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/construction.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn.github.io/Project1.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 03/tester.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 03/preload.js",
+		"/C/Users/Brook/Documents/GitHub/Misc/wod.mdown",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 06/index.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/help.html",
+		"/C/Users/Brook/Desktop/STEXT shortcuts.md",
+		"/C/Users/Brook/Desktop/infinitescroll.min.js",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 01/larrow.svg",
+		"/C/Users/Brook/Desktop/Untitled-3.svg",
+		"/C/Users/Brook/Downloads/AMIfv96sjoR2XYsnocYzCfCmKcwtxthYLxJOWnWSMNxpKZqCoIvwOcPVlkJAXJ91BMINZsE8w5cgNqqPwO4yXO4t40ojCLnZ2HS2h7MgBz0h6iq4gBVF4qU03jtLYPP7-AUiG5H7Bm2d_EBZj4mzytTcK5JB2Qf_X5RMeRZFobuSYwCKcEPkSb8.svg",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 03/larrow.svg",
+		"/C/Users/Brook/Downloads/AMIfv96AK0hxKZZIleGshpk1RnU9LuzFfBWXZgb9uu3RrKPYRs_YcED87nGS7SneangX4AM_hYN1Qbx3m4SiqxeHVFzEGKcNaJNPf7vzY7v_57PfaBnEED_Juf5vZoO1WIb7acu-5VK5BGCWWkNLNkArWSnrQNUaW0OLZyN6udnGB7EhMtKeLXw.svg",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/particle.js",
+		"/F/Desktop/the weaver.html",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 03/sum.css",
+		"/C/Users/Brook/Documents/GitHub/Squarn-Themes/Theme 05/jquery.particleground.min.js"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"width:",
+			"flair",
+			"width",
+			"500px",
+			"400px",
+			"400",
+			"date",
+			".date",
+			"pusher",
+			"background",
+			"background-col",
+			">\n",
+			"margin",
+			"h1",
+			"padding",
+			"st-effe",
+			"0",
+			"AFTER",
+			";\n",
+			"fff",
+			"ol",
+			"aside",
+			".inline_aside",
+			"inline_aside",
+			"inline",
+			"inline_",
+			"</em>",
+			"<em>",
+			"em",
+			">\n",
+			"i",
+			"shows",
+			"<div class=\"meta\">\n\t\t\t\t\t<div class=\"notes\">100 Notes</div>\n\t\t\t\t</div>",
+			"title",
+			"rect",
+			"fill",
+			"g",
+			"main",
+			"postbody",
+			".info",
+			"container",
+			"-35",
+			"push",
+			"footer",
+			"cover",
+			"footer",
+			"container",
+			"main",
+			"min-height",
+			"min-heigh",
+			"main",
+			"footer",
+			"description",
+			"img",
+			"article",
+			"footer",
+			"navigation",
+			"margin-bottom",
+			"description",
+			"cover",
+			"tab",
+			"a",
+			"{\n",
+			"class=\"",
+			"class=\">",
+			"backgroun",
+			"noise-bg",
+			"noise",
+			"position",
+			"title",
+			"header",
+			"top_hea",
+			"particles",
+			".starter",
+			".fjala",
+			".karla",
+			"karla",
+			"ask",
+			".tag",
+			"tag",
+			"tagline",
+			"title",
+			"meta",
+			".fjalla",
+			"font-fam",
+			".insert",
+			".help",
+			"font-f",
+			"font-family",
+			"border",
+			"pagn",
+			"meta",
+			"rb",
+			"ptitle",
+			"s",
+			"nav",
+			"nav_narrow",
+			"wrap",
+			"ol",
+			"ptitle",
+			"quote",
+			"mcontainer",
+			"text-align: center;",
+			"quote",
+			"title",
+			"Text",
+			"audio-me",
+			"music",
+			"quote",
+			"<head",
+			"blockquote",
+			"meta",
+			"Main",
+			"PTR",
+			"\"=\"",
+			"-",
+			"\"-\">",
+			"->",
+			"1",
+			"screen",
+			"FF3300",
+			"%;",
+			"li",
+			"b",
+			"#boy",
+			"\\n",
+			"pagn",
+			"\\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "models.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 117.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
