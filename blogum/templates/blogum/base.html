@@ -5,10 +5,10 @@
 	<link rel="stylesheet" href="{% static 'css/normalize.css' %}">
 	<link rel="stylesheet" href="{% static 'css/blogum.css' %}">
 	<link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+English+SC" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Inconsolata" rel="stylesheet">
 </head>
 <body>
-<div id="wrapper">
-		<div class="high-header">
+<div class="high-header">
 			<div class="not">Scale <div class="and">&</div> Bone</div>
 			<ul class="nav-ul">
 				<li><a href="/" class="nav">Home</a></li>
@@ -18,10 +18,38 @@
 				<li><a href="#" class="nav">A Perfect Circle</a></li>
 			</ul>
 		</div>
-
-	{% block content %}
-	{% endblock %}
-
+<div id="wrapper">
+		<div class="table-contents">
+			<div class="entry">
+				<div class="entry-title">Alacrity</div>
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</div>
+			<div class="entry">
+				<div class="entry-title">Chapters</div>
+				<ul>
+				{% for post in posters %}
+					<li><p>{{ post.categorize }}</p></li>
+					
+				{% endfor %}
+				</ul>
+			</div>
+			<div class="entry">
+				<div class="entry-title">Addendum</div>
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			{% block content %}
+			{% endblock %}
+		</div>
 	</div>
 </body>
 </html>

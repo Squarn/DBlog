@@ -1,8 +1,7 @@
 {% extends 'blogum/base.html' %}
 
-{% with detail="psdetail" %}
 {% block content %}
-	<div class="post postdetail">
+	<div class="post">
 		{% if post.published_date %}
 			<div class="content">
 				{{ post.text|linebreaksbr }}
